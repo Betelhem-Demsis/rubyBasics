@@ -30,3 +30,24 @@ puts word[1]
 
 # Print the starting index of  "ell" in the word
 puts word.index("ell")
+
+# Check if the word starts with "he"
+puts word.start_with?("he")  
+
+# Check if the word ends with "lo"
+puts word.end_with?("lo") 
+
+# Replace "l" with "x" in the word
+puts word.gsub("l", "x") 
+
+# Convert the word to an array of characters
+puts word.chars.inspect 
+
+# Count occurrences of the letter "l" in the word
+puts word.count("l")  
+
+# Capitalize the first letter of the word
+puts word.capitalize() 
+
+# Repeat the word 3 times
+puts word * 3 
