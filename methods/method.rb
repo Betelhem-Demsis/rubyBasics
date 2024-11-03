@@ -18,7 +18,6 @@ def greet(name = "Guest")
 end
 
 # Call the new greet method
-
 # Call the method without an argument
 greet() 
 
